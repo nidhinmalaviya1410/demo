@@ -4,9 +4,9 @@ import Image from 'next/image'
 function Feature() {
     return (
         <>
-            <div className='w-[100%]'>
-                <div className='flex w-[100%] flex-row Space around px-[100px] py-[50px]'>
-                    <div className='flex flex-col px-[30px]'>
+            <div className='w-full'>
+                <div className='flex w-full md:flex-row md:px-[100px] md:py-[50px] flex-col p-0'>
+                    <div className='flex flex-col px-[30px] py-[30px]'>
                         <div>
                             <Image
                                 src="/feature1.jpg"
@@ -27,7 +27,7 @@ function Feature() {
                         </div>
                     </div>
 
-                    <div className='flex flex-col px-[30px]'>
+                    <div className='flex flex-col px-[30px] py-[30px]'>
                         <div>
                             <Image
                                 src="/feature2.jpg"
@@ -48,7 +48,7 @@ function Feature() {
                         </div>
                     </div>
 
-                    <div className='flex flex-col px-[30px]'>
+                    <div className='flex flex-col px-[30px] py-[30px]'>
                         <div>
                             <Image
                                 src="/feature3.jpg"

@@ -17,8 +17,8 @@ function Benefit() {
 
     return (
         <>
-            <div className="flex w-[100%] flex-row p-[100px]">
-                <div className="flex flex-col px-[35px] justify-center w-[50%]">
+            <div className="flex w-full flex-col md:flex-row md:p-[100px]">
+                <div className="flex flex-col px-[35px] justify-center md:w-[50%]">
                     {scheduleData?.map((data, index) => {
                         return (
                             <Schedule data={data} key={index} />
@@ -26,7 +26,7 @@ function Benefit() {
                     })
                     }
                 </div>
-                <div className="flex flex-col absolute top-[80%] right-[8%] w-[30%] bg-slate-800">
+                <div className="flex flex-col md:absolute top-[80%] right-[8%] md:w-[30%] bg-slate-800 mx-[20px] md:mx-0">
                     <div className="w-[100%] p-[25px]">
                         <h1 className='text-white text-3xl text-center font-bold'>Schedule an Appointment</h1>
                         <p className='text-white text-1xl text-center'> Here, let visitors know what will happen when they complete your form.</p>
