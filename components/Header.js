@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Header() {
     return (
-        <main className="flex min-h-screen min-w-full md:h-[600px] justify-center items-center bg-[url('/main.jpeg')] bg-no-repeat bg-fixed">
+        <main className="flex min-h-screen min-w-full md:h-[600px] justify-center items-center bg-[url('/main.jpeg')] bg-no-repeat bg-fixed bg-[width:100% 100%]">
             <div className='flex-col md:pl-[150px] relative px-[20px] md:px-0'>
                 <Image
                     src="/multor-logo.svg"
